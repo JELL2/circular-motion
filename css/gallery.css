@@ -1,3 +1,10 @@
+#landing-paragraph{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto 2rem auto;
+
+}
+
 #gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
