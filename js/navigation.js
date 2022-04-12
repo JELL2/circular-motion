@@ -1,3 +1,8 @@
+// handle clicking back with components
+window.onpopstate = function() {
+    alert("clicked back button");
+ }; history.pushState({}, '');
+
 // as js in included in index before this file, we can use in here?
 function loadCountry(clickedLink){
      console.log(clickedLink);
